@@ -117,6 +117,6 @@ void grad_des(float* data, float learning_rate)
 
 int main()
 {
-    grad_des(data, 0.01);
+    grad_des(*data, 0.01);
     return 0;
 }
